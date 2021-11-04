@@ -1,0 +1,30 @@
+html{
+    background-color: black;
+}
+
+.fondonegro{
+    background-color: black;
+}
+
+.barraceleste{
+    background-color: #17a3b8;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.fondoceleste{
+    background-color: #17a3b8;
+}
+
+
+
+.titulos{
+    border-bottom: 1.5px solid var(--dark);
+    padding-bottom: 2rem;;
+  border-color: #17a3b8;
+    margin-bottom: 2rem;
+}
+
+.proporcion{
+    aspect-ratio: 3/2;
+}
