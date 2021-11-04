@@ -28,3 +28,9 @@ html{
 .proporcion{
     aspect-ratio: 3/2;
 }
+
+.espaciado{
+    padding-top:4rem;
+    padding-bottom: 7rem;
+}
+
