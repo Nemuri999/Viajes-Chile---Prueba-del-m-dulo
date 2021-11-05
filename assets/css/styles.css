@@ -1,5 +1,6 @@
 html{
     background-color: black;
+    scroll-behavior: smooth;
 }
 
 .fondonegro{
@@ -34,3 +35,13 @@ html{
     padding-bottom: 7rem;
 }
 
+.fondonegrot{
+    background-color: black;
+    opacity: 90%;
+    transition: all 2s ease;
+}
+
+.navbar{
+    padding-left: 10rem;
+    padding-right: 5rem;
+}
