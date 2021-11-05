@@ -13,7 +13,7 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top mx-0">
+    <nav id="menu" class="navbar navbar-expand-lg navbar-dark fixed-top mx-0">
         <a class="navbar-brand" href="#">Viajes Chile</a>
         <img class="icono" src="assets\img\viajes.svg" alt="">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,13 +25,13 @@
               <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link" href="#">Quienes Somos</a>
+              <a class="nav-link" href="index.html#whoweare">Quienes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Destacados</a>
+              <a class="nav-link" href="index.html#highlights1">Destacados</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="index.html#contactame">Contacto</a>
               </li>
            
               </div>
@@ -71,7 +71,7 @@
     </div>
 </header>
 
-<section>
+<section id="whoweare">
 <div class="container-fluid fondonegro text-white py-4">
 
     <h3 class="text-center pt-5 pb-4 titulos">¿Quienes Somos?</h3>
@@ -104,7 +104,7 @@
 </div></section>
 
 
-<section>
+<section id="highlights1">
 <div class="container-fluid fondonegro px-5 pb-5">
 
 <h3 class="text-white text-center titulos">Destacados</h3>
@@ -149,7 +149,7 @@
 </div></div>
 </section>
 
-<section>
+<section id="contactame">
     <div class="container-fluid fondonegro px-5 pb-4">
 
         <h3 class="text-white text-center titulos">Contacto</h3>    
@@ -160,17 +160,20 @@
         <h4 class="bg-white text-center m-4 pt-5 pb-3">Hola, gracias por contactarnos</h4>
             <div></div>
 
-
-        <div class="row">
-
-          <div class="col-6 text-right">
-        <button type="button" class="btn btn-primary font-weight-bold ">Comenzar</button></div>
-
-      <div class="col-6 text-left"><h6 class="pt-2">Pulsa Enter <i class="fas fa-arrow-right"></i> </h6></div>
-      </div>
-
-
+          <div class="text-center">
+        <button type="button" id="abrir-formulario-1" class="btn btn-primary font-weight-bold ">Comenzar</button></div>
+           
     </div></div></div>
+</section>
+
+/* Typeform me exigía usar el protocolo HTTPS en vez del HTTP, pero no supe como configurarlo, así que decidí crear un PopUp con Google Forms, que también es funcional y aplica JavaScript*/
+
+<section>
+  <div  id="formulariocontacto" class="popup text-center">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfF4IOTbcCfZ1vmbG0IRuLlzS_JlqxD6n3HVp_lMqMxkm9dGg/viewform?embedded=true" width="400" height="500"  frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    <button id="cerrarpopup" class="text-white bg-dark px-2">Cerrar</button>
+</div></div>
+
 </section>
 
 <footer>

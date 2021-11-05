@@ -7,3 +7,12 @@ $(function (){
        }
     });
 });
+
+
+$("#abrir-formulario-1").click(function() {
+    $("#formulariocontacto").show();
+  });
+
+  $("#cerrarpopup").click(function() {
+    $("#formulariocontacto").hide();
+  });
